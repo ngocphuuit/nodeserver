@@ -1,0 +1,23 @@
+{
+  "name": "nodeapp",
+  "version": "1.0.0",
+  "description": "Demo Run Node and Ruby with Redis Socket",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "realtime",
+    "nodeapp"
+  ],
+  "author": "nopunguyen",
+  "dependencies": {
+    "express": "^4.14.0",
+    "figaro": "^0.1.9",
+    "hiredis": "^0.1.17",
+    "redis": "^0.12.1",
+    "request": "^2.51.0",
+    "socket.io": "^1.2.1",
+    "socket.io-redis": "^0.1.4"
+  }
+}
